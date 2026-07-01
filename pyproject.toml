@@ -1,0 +1,42 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "luteras"
+version = "1.0.0"
+description = "Official Python SDK for the LUTERAS API Platform"
+readme = "README.md"
+requires-python = ">=3.9"
+
+authors = [
+    { name = "LUTERAS TECH", email = "support@luteras.com" }
+]
+
+license = "MIT"
+
+keywords = [
+    "luteras",
+    "license",
+    "licensing",
+    "api",
+    "saas",
+    "subscriptions"
+]
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Operating System :: OS Independent"
+]
+
+dependencies = [
+    "requests>=2.31.0"
+]
+
+[project.urls]
+Homepage = "https://luteras.com"
+Documentation = "https://luteras.com/docs"
+Repository = "https://github.com/LuterasTech/luteras-python-sdk"
+Issues = "https://github.com/LuterasTech/luteras-python-sdk/issues"
+
