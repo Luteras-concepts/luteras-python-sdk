@@ -16,4 +16,4 @@ env/
 .env
 
 # Test scripts (keep these local)
-test_*.py
+/test_*.py
