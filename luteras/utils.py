@@ -4,15 +4,23 @@ from .exceptions import LuterasAPIError, LuterasNetworkError
 
 
 class RequestHandler:
-    def __init__(self, api_key, base_url):
+    def __init__(self, base_url, api_key=None, token=None):
         self.api_key = api_key
+        self.token = token
         self.base_url = base_url.rstrip("/")
 
     def headers(self):
-        return {
-            "x-api-key": self.api_key,
+        headers = {
             "Content-Type": "application/json"
         }
+
+        if self.api_key:
+            headers["x-api-key"] = self.api_key
+
+        if self.token:
+            headers["Authorization"] = f"Bearer {self.token}"
+
+        return headers
 
     def request(self, method, endpoint, data=None):
         url = f"{self.base_url}{endpoint}"
@@ -42,3 +50,4 @@ class RequestHandler:
             raise LuterasAPIError(message)
 
         return result
+

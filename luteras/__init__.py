@@ -1,4 +1,5 @@
 from .client import LuterasClient
+from .account_client import LuterasAccountClient
 from .exceptions import (
     LuterasError,
     LuterasAPIError,
@@ -7,6 +8,7 @@ from .exceptions import (
 
 __all__ = [
     "LuterasClient",
+    "LuterasAccountClient",
     "LuterasError",
     "LuterasAPIError",
     "LuterasNetworkError",
