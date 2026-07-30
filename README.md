@@ -118,3 +118,11 @@ except LuterasNetworkError as error:
     print("Network Error:", error)
 ```
 
+## Developer Resources
+
+-    Website: https://luteras.com
+-    API Documentation: https://luteras.com/docs
+-    Swagger UI: https://luteras.com/swagger
+-    PyPI: https://pypi.org/project/luteras/
+-    GitHub: https://github.com/luteras-concepts/luteras-python-sdk
+
