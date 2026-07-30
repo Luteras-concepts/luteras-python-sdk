@@ -76,7 +76,7 @@ result = client.licenses.verify(
 print(result)
 ```
 
-## Add sample response example
+## sample response
 
 ```json
 {
