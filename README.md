@@ -26,8 +26,6 @@ Upgrade to the latest version:
 ```bash
 pip install --upgrade luteras
 
----
----
 
 ## Quick Start
 
