@@ -75,3 +75,17 @@ result = client.licenses.verify(
 
 print(result)
 ```
+
+## Add sample response example
+
+```json
+{
+  "valid": true,
+  "status": "active",
+  "api_limit": 5000,
+  "api_usage": 12,
+  "expires_at": null,
+  "overage_calls": 0,
+  "overage_cost": 0.0
+}
+```
