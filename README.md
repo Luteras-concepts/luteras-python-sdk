@@ -1,10 +1,28 @@
+
 # LUTERAS Python SDK
 
 Official Python SDK for the LUTERAS API Platform.
 
-LUTERAS helps developers manage software licenses, API keys, subscriptions, and usage tracking through a secure developer API.
+Build software licensing, API key management, subscriptions, JWT authentication and usage tracking into your Python applications in minutes.
+
+## Features
+
+- ✅ Software Licensing
+- ✅ API Key Management
+- ✅ JWT Authentication
+- ✅ Subscription Billing
+- ✅ Usage Tracking
+- ✅ Developer-friendly API
+- ✅ Python 3.9+
 
 ## Installation
 
 ```bash
 pip install luteras
+```
+
+Upgrade to the latest version:
+
+```bash
+pip install --upgrade luteras
+```
