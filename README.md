@@ -45,3 +45,17 @@ result = client.licenses.verify(
 print(result)
 ```
 ```
+
+## Create a License
+
+```python
+from luteras import LuterasClient
+
+client = LuterasClient(
+    api_key="YOUR_LUTERAS_API_KEY"
+)
+
+license = client.licenses.create()
+
+print(license["license_key"])
+```
