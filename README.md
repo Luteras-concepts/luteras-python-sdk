@@ -89,3 +89,6 @@ print(result)
   "overage_cost": 0.0
 }
 ```
+
+
+## Error Handling
