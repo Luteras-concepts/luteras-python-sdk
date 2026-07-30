@@ -25,4 +25,25 @@ Upgrade to the latest version:
 
 ```bash
 pip install --upgrade luteras
+
+---
+---
+
+## Quick Start
+
+```python
+from luteras import LuterasClient
+
+client = LuterasClient(
+    api_key="YOUR_LUTERAS_API_KEY"
+)
+
+license = client.licenses.create()
+
+result = client.licenses.verify(
+    license["license_key"]
+)
+
+print(result)
+```
 ```
