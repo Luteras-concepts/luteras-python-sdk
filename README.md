@@ -126,3 +126,11 @@ except LuterasNetworkError as error:
 -    PyPI: https://pypi.org/project/luteras/
 -    GitHub: https://github.com/luteras-concepts/luteras-python-sdk
 
+## Support
+
+If you need help integrating LUTERAS into your application:
+
+-  Email: support@luteras.com
+-  Website: https://luteras.com
+-  Documentation: https://luteras.com/docs
+
