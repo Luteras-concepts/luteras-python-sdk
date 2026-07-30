@@ -134,3 +134,10 @@ If you need help integrating LUTERAS into your application:
 -  Website: https://luteras.com
 -  Documentation: https://luteras.com/docs
 
+
+## License
+
+This project is licensed under the MIT License.
+
+See the LICENSE file for details.
+
