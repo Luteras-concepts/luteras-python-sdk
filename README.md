@@ -92,3 +92,29 @@ print(result)
 
 
 ## Error Handling
+
+
+```python
+from luteras import LuterasClient
+from luteras.exceptions import (
+    LuterasAPIError,
+    LuterasNetworkError,
+)
+
+client = LuterasClient(
+    api_key="YOUR_LUTERAS_API_KEY"
+)
+
+try:
+    result = client.licenses.verify(
+        "YOUR_LICENSE_KEY"
+    )
+    print(result)
+
+except LuterasAPIError as error:
+    print("API Error:", error)
+
+except LuterasNetworkError as error:
+    print("Network Error:", error)
+```
+
