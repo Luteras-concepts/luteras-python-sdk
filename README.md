@@ -141,3 +141,55 @@ This project is licensed under the MIT License.
 
 See the LICENSE file for details.
 
+# Security Policy
+
+## Supported Versions
+
+The following versions of the LUTERAS Python SDK currently receive security updates.
+
+| Version | Supported |
+|---------|-----------|
+| 1.x.x   | ✅ Yes |
+| < 1.0.0 | ❌ No |
+
+---
+
+## Reporting a Vulnerability
+
+If you discover a security vulnerability, please do not create a public GitHub issue.
+
+Instead, contact the LUTERAS security team privately.
+
+Email:
+support@luteras.com
+
+Please include:
+
+- A description of the vulnerability
+- Steps to reproduce
+- Potential impact
+- Screenshots or proof of concept (if available)
+- Suggested mitigation (optional)
+
+We will acknowledge your report within 72 hours and investigate it as quickly as possible.
+
+---
+
+## Responsible Disclosure
+
+Please allow us reasonable time to investigate and release a fix before publicly disclosing any security issue.
+
+We appreciate responsible disclosure and thank you for helping keep LUTERAS secure.
+
+---
+
+## Security Best Practices
+
+When using the LUTERAS SDK:
+
+- Never expose your API keys.
+- Store secrets in environment variables.
+- Always use HTTPS.
+- Keep the SDK updated.
+- Rotate compromised API keys immediately.
+
