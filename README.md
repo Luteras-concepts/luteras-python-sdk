@@ -193,3 +193,41 @@ When using the LUTERAS SDK:
 - Keep the SDK updated.
 - Rotate compromised API keys immediately.
 
+
+# Code of Conduct
+
+## Our Pledge
+
+We are committed to providing a welcoming, respectful, and harassment-free experience for everyone, regardless of age, background, identity, experience level, nationality, or religion.
+
+## Our Standards
+
+Examples of positive behavior include:
+
+- Being respectful and professional.
+- Accepting constructive feedback.
+- Helping new contributors.
+- Using welcoming and inclusive language.
+- Focusing on what is best for the community.
+
+Examples of unacceptable behavior include:
+
+- Harassment or abusive language.
+- Personal attacks.
+- Discrimination of any kind.
+- Publishing private information without permission.
+- Spam or disruptive behavior.
+
+## Enforcement
+
+Project maintainers are responsible for enforcing this Code of Conduct and may remove comments, commits, issues, or pull requests that violate these guidelines.
+
+## Reporting
+
+If you experience or witness unacceptable behavior, please contact:
+
+support@luteras.com
+
+All reports will be reviewed confidentially.
+
+Thank you for helping make the LUTERAS community welcoming and professional.
